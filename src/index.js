@@ -1,4 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>Hello there</h1>, document.getElementById("root"));
+const h1Style = { color: "red", fontSize: "28", border: "2px solid black" };
+const greeting = "Hello";
+
+ReactDOM.render(
+  <div>
+    <h1 style={h1Style}>{greeting} everybody</h1>
+  </div>,
+  document.getElementById("root")
+);
