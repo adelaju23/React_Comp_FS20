@@ -18,9 +18,13 @@ if (time > 18) {
   h1Style.color = "red";
 }
 
+function MainHeader() {
+  return <h1 style={h1Style}>{greeting} everybody</h1>;
+}
+
 ReactDOM.render(
   <div>
-    <h1 style={h1Style}>{greeting} everybody</h1>
+    <MainHeader />
     <h2>Our toolbox</h2>
     <ul>
       <li>Server side: Nodejs</li>
