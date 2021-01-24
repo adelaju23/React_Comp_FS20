@@ -21,6 +21,12 @@ if (time > 18) {
 ReactDOM.render(
   <div>
     <h1 style={h1Style}>{greeting} everybody</h1>
+    <h2>Our toolbox</h2>
+    <ul>
+      <li>Server side: Nodejs</li>
+      <li>Client side: ReactJS</li>
+      <li>RDBMS: PostgreSQL</li>
+    </ul>
   </div>,
   document.getElementById("root")
 );
