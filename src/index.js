@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import MainHeader from "./MainHeader";
-import ToolsHeader from "./ToolsHeader";
-import ToolsList from "./ToolsList";
+import App from "./App";
 
 // deactivate the styling and content for now.
 // We will restore it later
@@ -25,11 +23,4 @@ if (time > 18) {
 }
 */
 
-ReactDOM.render(
-  <div>
-    <MainHeader />
-    <ToolsHeader />
-    <ToolsList />
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
