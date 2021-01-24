@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import MainHeader from "./MainHeader";
 
+// deactivate the styling and content for now.
+// We will restore it later
+/*
 const h1Style = { color: "blue", fontSize: "28", border: "2px solid black" };
 let greeting = "Hello";
 
@@ -17,10 +21,7 @@ if (time > 18) {
   greeting = "Good morning";
   h1Style.color = "red";
 }
-
-function MainHeader() {
-  return <h1 style={h1Style}>{greeting} everybody</h1>;
-}
+*/
 
 ReactDOM.render(
   <div>
