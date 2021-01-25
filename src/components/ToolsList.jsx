@@ -18,18 +18,16 @@ function ToolsList() {
         image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1920px-Node.js_logo.svg.png"
         technology="Server, Javascript"
       />
-      <h3>ReactJS</h3>
-      <img
-        alt="ReactJS"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+      <Card
+        title="ReactJS"
+        image="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+        technology="Client, Javascript, JSX"
       />
-      <h4>Client, Javascript, JSX</h4>
-      <h3>PostgreSQL</h3>
-      <img
-        alt="PostgreSQL"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
+      <Card
+        title="PostgreSQL"
+        image="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
+        technology="Server, RDBMS, SQL"
       />
-      <h4>Server, RDBMS, SQL</h4>
     </div>
   );
 }
