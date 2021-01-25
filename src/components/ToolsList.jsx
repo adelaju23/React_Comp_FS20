@@ -1,6 +1,6 @@
 import React from "react";
 
-function ToolsList() {
+function Card() {
   return (
     <div>
       <h3>Nodejs</h3>
@@ -9,6 +9,14 @@ function ToolsList() {
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1920px-Node.js_logo.svg.png"
       />
       <h4>Server, Javascript</h4>
+    </div>
+  );
+}
+
+function ToolsList() {
+  return (
+    <div>
+      <Card />
       <h3>ReactJS</h3>
       <img
         alt="ReactJS"
