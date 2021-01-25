@@ -1,14 +1,11 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
   return (
     <div>
-      <h3>Nodejs</h3>
-      <img
-        alt="Nodejs"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1920px-Node.js_logo.svg.png"
-      />
-      <h4>Server, Javascript</h4>
+      <h3>{props.title}</h3>
+      <img alt={props.title} src={props.image} />
+      <h4>{props.technology}</h4>
     </div>
   );
 }
@@ -16,7 +13,11 @@ function Card() {
 function ToolsList() {
   return (
     <div>
-      <Card />
+      <Card
+        title="Nodejs"
+        image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1920px-Node.js_logo.svg.png"
+        technology="Server, Javascript"
+      />
       <h3>ReactJS</h3>
       <img
         alt="ReactJS"
