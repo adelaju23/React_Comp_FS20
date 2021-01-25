@@ -1,8 +1,8 @@
 import React from "react";
 
-import MainHeader from "./MainHeader";
-import ToolsHeader from "./ToolsHeader";
-import ToolsList from "./ToolsList";
+import MainHeader from "./components/MainHeader";
+import ToolsHeader from "./components/ToolsHeader";
+import ToolsList from "./components/ToolsList";
 
 function App() {
   return (
